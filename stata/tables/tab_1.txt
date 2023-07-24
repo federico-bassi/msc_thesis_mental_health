@@ -1,0 +1,45 @@
+Mental Health Determinants,Outcome: GHQ-12 Likert Scale - Psychological distress\label{tab1}
+----------------------------------------------------------------------------------------------
+                       (1)          (2)          (3)          (4)          (5)          (6)   
+----------------------------------------------------------------------------------------------
+Female               0.154***     0.145***     0.130***     0.161***     0.159***     0.164***
+                   (0.005)      (0.005)      (0.005)      (0.006)      (0.006)      (0.006)   
+
+Minority                         -0.215***    -0.224***    -0.225***    -0.220***    -0.202***
+                                (0.009)      (0.009)      (0.010)      (0.010)      (0.011)   
+
+Total Income: ~d                           -0.0000230*** -0.00000457**  -0.0000100*** -0.0000139***
+                                             (0.000)      (0.000)      (0.000)      (0.000)   
+
+Student                                                     0.109***     0.108***     0.102***
+                                                          (0.010)      (0.010)      (0.010)   
+
+Not employed                                                0.284***     0.302***     0.300***
+                                                          (0.011)      (0.011)      (0.012)   
+
+LT Sick/Disabled                                            0.648***     0.685***     0.656***
+                                                          (0.020)      (0.020)      (0.021)   
+
+Other qualific~n                                                         0.115***     0.117***
+                                                                       (0.016)      (0.017)   
+
+GCSE etc.                                                                0.150***     0.151***
+                                                                       (0.013)      (0.014)   
+
+A level etc                                                              0.173***     0.177***
+                                                                       (0.013)      (0.014)   
+
+Degree/Ot.. De~e                                                         0.179***     0.183***
+                                                                       (0.013)      (0.014)   
+
+In a relations~1                                                                      0.102***
+                                                                                    (0.012)   
+
+Own child in h~e                                                                   -0.00762   
+                                                                                    (0.008)   
+----------------------------------------------------------------------------------------------
+Observations        682142       510493       510492       386523       381453       305921   
+Controls for age       Yes          Yes          Yes          Yes          Yes          Yes   
+Time fixed eff~s       Yes          Yes          Yes          Yes          Yes          Yes   
+Unit fixed eff~s       Yes          Yes          Yes          Yes          Yes          Yes   
+                 \hline\hline                 \end{tabular}                 {                 \caption*{\begin{scriptsize}                 $\ast p< 0.05; \ast\ast p < 0.01; \ast\ast\ast p < 0.001$.                 Standard Errors in parentesis.\newline Years: 1991-2022\newline The table reports estimated coefficients for                 the regression of mental health on socio-economic determinants.                 Mental Health is measured by the GHQ-12. The variable has been standardized.                 Higher scores correspond to higher levels of distress.                 \end{scriptsize}}}                 \end{table}                 

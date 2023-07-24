@@ -1,0 +1,65 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{longtable}{l*{4}{c}}
+\caption{Regression in parametric form\label{tab3}}\\
+\toprule\endfirsthead\midrule\endhead\midrule\endfoot\endlastfoot
+                &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         \\
+\midrule
+Gender          &    0.117\sym{***}&                  &                  &    0.122\sym{***}\\
+                &  (0.008)         &                  &                  &  (0.008)         \\
+\addlinespace
+Gender $\times$ year&    0.004\sym{***}&                  &                  &    0.003\sym{**} \\
+                &  (0.001)         &                  &                  &  (0.001)         \\
+\addlinespace
+Belongs to an ethnic minority group&                  &   -0.283\sym{***}&                  &   -0.334\sym{***}\\
+                &                  &  (0.013)         &                  &  (0.015)         \\
+\addlinespace
+Belongs to an ethnic minority group $\times$ year&                  &    0.019\sym{***}&                  &    0.020\sym{***}\\
+                &                  &  (0.002)         &                  &  (0.002)         \\
+\addlinespace
+Monthly gross income&                  &                  &   -0.002         &   -0.009\sym{***}\\
+                &                  &                  &  (0.002)         &  (0.003)         \\
+\addlinespace
+Monthly gross income $\times$ year&                  &                  &   -0.002\sym{***}&   -0.001\sym{*}  \\
+                &                  &                  &  (0.000)         &  (0.000)         \\
+\addlinespace
+Unemployed      &                  &                  &                  &    0.217\sym{***}\\
+                &                  &                  &                  &  (0.020)         \\
+\addlinespace
+Unemployed $\times$ year&                  &                  &                  &    0.002         \\
+                &                  &                  &                  &  (0.003)         \\
+\addlinespace
+Over 65 y.o.    &                  &                  &                  &   -0.216\sym{***}\\
+                &                  &                  &                  &  (0.010)         \\
+\addlinespace
+Over 65 y.o. $\times$ year&                  &                  &                  &   -0.002         \\
+                &                  &                  &                  &  (0.001)         \\
+\addlinespace
+Marital status  &                  &                  &                  &   -0.017\sym{**} \\
+                &                  &                  &                  &  (0.005)         \\
+\addlinespace
+Marital status $\times$ year&                  &                  &                  &    0.005\sym{***}\\
+                &                  &                  &                  &  (0.001)         \\
+\addlinespace
+Own child in house&                  &                  &                  &   -0.034\sym{**} \\
+                &                  &                  &                  &  (0.011)         \\
+\addlinespace
+Own child in house $\times$ year&                  &                  &                  &    0.006\sym{**} \\
+                &                  &                  &                  &  (0.002)         \\
+\addlinespace
+Years of education&                  &                  &                  &    0.010\sym{***}\\
+                &                  &                  &                  &  (0.001)         \\
+\addlinespace
+Years of education $\times$ year&                  &                  &                  &   -0.000\sym{*}  \\
+                &                  &                  &                  &  (0.000)         \\
+\midrule
+Observations    &   471669         &   469110         &   471673         &   409827         \\
+Time fixed effects&      Yes         &      Yes         &      Yes         &      Yes         \\
+Unit fixed effects&      Yes         &      Yes         &      Yes         &      Yes         \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize Mental Health is measured by the (standardized) GHQ-12. Higher scores correspond to higher levels of distress.}\\
+\multicolumn{5}{l}{\footnotesize Income is measured in thousands of pounds. Results are weighted to represent the UK population.}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{longtable}
+}

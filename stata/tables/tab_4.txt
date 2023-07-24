@@ -1,0 +1,24 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{GHQ dimensions\label{tab4}}
+\begin{tabular}{l*{12}{c}}
+\toprule
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}&\multicolumn{1}{c}{(10)}&\multicolumn{1}{c}{(11)}&\multicolumn{1}{c}{(12)}\\
+                &\multicolumn{1}{c}{Concentration}&\multicolumn{1}{c}{Loss of sleep}&\multicolumn{1}{c}{Playing a useful role}&\multicolumn{1}{c}{Capable of making decisions}&\multicolumn{1}{c}{Constantly under strain}&\multicolumn{1}{c}{Problem overcoming difficulties}&\multicolumn{1}{c}{Enjoy day-to-day activities}&\multicolumn{1}{c}{Ability to face problems}&\multicolumn{1}{c}{Unhappy or depressed}&\multicolumn{1}{c}{Losing confidence}&\multicolumn{1}{c}{Believe worthless}&\multicolumn{1}{c}{General happiness}\\
+\midrule
+Indian          &   -0.019\sym{***}&    0.001         &   -0.004         &   -0.015\sym{***}&   -0.021\sym{***}&    0.002         &   -0.012\sym{***}&   -0.007         &   -0.016\sym{***}&   -0.018\sym{***}&   -0.001         &   -0.010\sym{***}\\
+Pakistani       &   -0.004         &    0.005         &    0.008\sym{*}  &    0.002         &   -0.017\sym{***}&    0.006         &   -0.001         &   -0.000         &   -0.004         &   -0.008\sym{**} &   -0.001         &   -0.007\sym{*}  \\
+Bangladeshi     &   -0.001         &    0.006         &    0.002         &   -0.001         &   -0.004         &    0.006         &    0.001         &   -0.001         &    0.000         &   -0.005         &    0.003         &    0.003         \\
+Caribbean       &    0.005         &   -0.007         &   -0.001         &   -0.009\sym{**} &   -0.005         &    0.001         &    0.001         &   -0.005         &    0.001         &   -0.010\sym{**} &   -0.010\sym{**} &   -0.004         \\
+African         &   -0.015\sym{***}&   -0.006         &   -0.009\sym{*}  &   -0.025\sym{***}&   -0.016\sym{***}&   -0.001         &   -0.014\sym{***}&   -0.015\sym{***}&   -0.014\sym{***}&   -0.017\sym{***}&   -0.011\sym{**} &   -0.015\sym{***}\\
+Other minorities&   -0.008\sym{*}  &    0.003         &    0.002         &   -0.012\sym{**} &   -0.006         &    0.012\sym{**} &   -0.010\sym{*}  &   -0.001         &    0.002         &   -0.005         &    0.002         &   -0.011\sym{**} \\
+\midrule
+Observations    &   198375         &   198428         &   198298         &   198346         &   198347         &   198311         &   198372         &   198334         &   198347         &   198373         &   198334         &   198343         \\
+Controls        &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         \\
+Time fixed effects&      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         \\
+Unit fixed effects&      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         \\
+\bottomrule
+\multicolumn{13}{l}{\footnotesize Years: 1991-2022}\\
+\multicolumn{13}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+\end{table}
